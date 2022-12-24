@@ -292,7 +292,8 @@ function wheel(event) {
     }
     
     scrollArray(overflowing, -deltaX, -deltaY);
-    event.preventDefault();
+    
+document.addEventListener('mousewheel DOMMouseScroll MozMousePixelScroll', { passive: false });
 }
 
 /**
@@ -363,7 +364,8 @@ function keydown(event) {
     }
 
     scrollArray(elem, x, y);
-    event.preventDefault();
+    
+document.addEventListener('mousewheel DOMMouseScroll MozMousePixelScroll', { passive: false });
 }
 
 /**
