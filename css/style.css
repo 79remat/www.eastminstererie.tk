@@ -175,6 +175,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	/* Create the parallax scrolling effect */
+	background-attachment:fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.3);
@@ -361,9 +366,16 @@ header .intro-text {
 }
 .testimonial-image, .testimonial-image img {
 	display: block;
-	width: 64px;
-	height: 64px;
+	width: 92px;
+	height: 100px;
 }
+@media only screen and (max-width:749px) {
+	.testimonial-image, .testimonial-image img {
+		display: block;
+		width: 64px;
+		height: 64px;
+	}
+  }
 .testimonial-content {
 	position: relative;
 	overflow: hidden;
@@ -375,7 +387,7 @@ header .intro-text {
 }
 .testimonial-meta {
 	margin-top: 10px;
-	font-size: 13px;
+	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
