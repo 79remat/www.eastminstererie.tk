@@ -114,7 +114,7 @@ function init() {
              html.offsetHeight <= windowHeight)) {
 
         html.style.height = 'auto';
-        setTimeout(10);
+        setTimeout(refresh, 10);
 
         // clearfix
         if (root.offsetHeight <= windowHeight) {
@@ -292,8 +292,7 @@ function wheel(event) {
     }
     
     scrollArray(overflowing, -deltaX, -deltaY);
-    
-document.addEventListener('mousewheel DOMMouseScroll MozMousePixelScroll', { passive: false });
+    event.preventDefault();
 }
 
 /**
@@ -364,8 +363,7 @@ function keydown(event) {
     }
 
     scrollArray(elem, x, y);
-    
-document.addEventListener('mousewheel DOMMouseScroll MozMousePixelScroll', { passive: false });
+    event.preventDefault();
 }
 
 /**

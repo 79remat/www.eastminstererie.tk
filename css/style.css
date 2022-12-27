@@ -98,7 +98,7 @@ hr {
 }
 #menu .phone {
 	font-family: 'Montserrat', sans-serif;
-	margin: 4px 0 0 75px;
+	margin: 4px 0 0 5px;
 	float: left;
 	font-size: 16px;
 	font-weight: 400;
@@ -207,6 +207,21 @@ header .intro-text {
 	padding-top: 350px;
 	padding-bottom: 150px;
 	text-align: center;
+}
+@media(max-width:768px){
+	#intro-name {
+		font-size: 32px;
+	}
+}
+
+#intro-desc {
+	font-size: 25px
+}
+
+@media(max-width:768px){
+	#intro-desc {
+		font-size: 18px;
+	}
 }
 /* Get Touch Section */
 #get-touch {
