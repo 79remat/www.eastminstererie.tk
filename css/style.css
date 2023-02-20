@@ -291,6 +291,15 @@ header .intro-text {
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
+#about-img2 {
+	padding: 20px;
+	width: 500px;
+	float:right;
+	margin-top: 10px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
