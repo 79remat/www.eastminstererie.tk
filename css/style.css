@@ -181,15 +181,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-@media only screen and (max-width: 600px) {
-    .intro {
-		background: url(../img/uploads/home-bg-mobile.jpeg) center center no-repeat;
-    }
-    #home {
-      background-size:contain;
-    }
-}
-
 .intro .overlay {
 	background: rgba(0,0,0,0.3);
 }
