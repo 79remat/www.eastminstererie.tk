@@ -37,7 +37,7 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #1f386e;
+	color: #00A1FF;
 	font-weight: 400;
 }
 a:hover, a:focus {
@@ -418,21 +418,21 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: #1f386e;
-	color: rgba(255,255,255,.65);
+	background: white;
+	color: #000;
 }
 #contact .section-title {
 	margin-bottom: 40px;
 }
 #contact h2 {
-	color: #fff;
+	color: #333;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.09);
 }
 #contact h4 {
-	color: #fff;
+	color: #000;
 	margin-top: 22px;
 	margin-bottom: 60px;
 	padding-bottom: 20px;
@@ -503,7 +503,7 @@ color: #777;
 	margin: 20px 0;
 }
 #contact .contact-item span {
-	color: rgba(255,255,255,1);
+	color: #000;
 	display: block;
 }
 #contact .social {
@@ -535,7 +535,7 @@ color: #777;
 	font-size: 14px;
 }
 #footer a {
-	color: #1f386e;
+	color: #00A1FF;
 }
 #footer a:hover {
 	color: #e52f3c;
